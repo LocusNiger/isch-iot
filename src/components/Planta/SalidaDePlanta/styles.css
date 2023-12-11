@@ -1,0 +1,12 @@
+.bg-tank {
+  background: linear-gradient(
+    268.01deg,
+    rgba(140, 140, 148, 0.45) -39.08%,
+    rgba(213, 217, 249, 0.75) 46.3%,
+    #494a53 107.01%
+  );
+}
+
+.shadow-tank {
+  box-shadow: inset -3.28px 0px 6.56px rgba(0, 0, 0, 0.25);
+}

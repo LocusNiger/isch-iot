@@ -1,0 +1,63 @@
+.containerSecuencia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  padding: 1rem 0.5rem;
+}
+.secuenciaDetail {
+  padding: 1rem 0.5rem;
+}
+
+.estadosTabla {
+  border: 1px solid black;
+  width: 100%;
+}
+
+table {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.estadosTabla th:nth-child(1),
+.estadosTabla th:nth-child(3) {
+  width: 10%;
+}
+.estadosTabla th:nth-child(1),
+.estadosTabla th:nth-child(2),
+.estadosTabla th:nth-child(3) {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.estadosTabla td:nth-child(1),
+.estadosTabla td:nth-child(3) {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.tableSalidas td:nth-child(1),
+.tableSalidas td:nth-child(3) {
+  border: 0;
+}
+
+.tableSalidas {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.containerButtonsSecuencia {
+  display: flex;
+  padding: 1rem 0;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.containerButtonsSecuencia button {
+  padding: 0.4rem;
+}

@@ -1,0 +1,11 @@
+.containerEdicion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  padding: 1rem 0.5rem;
+}
+
+.containerDatos {
+  width: 85%;
+  padding: 1rem;
+}

@@ -1,0 +1,96 @@
+.containerLogin {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    min-width: 260px;
+    height: 340px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.containerLogin form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-top: 5%;
+}
+
+.containerLogin h1 {
+    font-size: 27px;
+    margin-bottom: 7px;
+    color: rgb(20, 20, 20);
+}
+
+.noErrorMsg {
+    display: none;
+    color: rgb(219, 0, 0);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.errorMsg {
+    display: inline-block;
+}
+
+.containerLogin input {
+    margin: 5px 0px 20px 0px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.containerLogin form > div {
+    width: 100%;
+}
+
+.containerLogin button {
+    min-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.containerLogin label {
+    display: block;
+    font-size: 20px;
+}
+
+.containerLogin button:hover {
+    background-color: #aaa;
+}
+
+.containerLogin button:active {
+    background-color: #888;
+}
+
+.containerLogin button:focus {
+    outline: none;
+}
+
+.containerLogin button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.containerLogin button:disabled:hover {
+    background-color: #ccc;
+}
+
+.containerLogin button:disabled:active {
+    background-color: #ccc;
+}
+
+.containerLogin button:disabled:focus {
+    outline: none;
+}

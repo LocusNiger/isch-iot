@@ -1,0 +1,90 @@
+.containerComandos {
+  display: flex;
+  margin-top: 90px;
+  padding: 1rem 0.5rem;
+  border: 1px solid red;
+}
+
+.containerTabla {
+  padding: 1rem;
+  border: 1px solid blue;
+}
+
+.tableComandos {
+  border: 1px solid;
+}
+
+.tableComandos th {
+  padding: 0.5rem;
+  background-color: rgb(238, 238, 238);
+  border-bottom: 1px solid;
+}
+
+.columnaSemaforo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-right: 1px solid;
+}
+
+.comandos {
+  width: 70%;
+  display: flex;
+  padding: 1rem;
+}
+
+.intermitencia {
+  width: 40%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intermitencia h3 {
+  padding-bottom: 0.5rem;
+}
+
+.intermitencia button {
+  width: 40%;
+}
+
+.sincronismo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sincronismo h3 {
+  padding-bottom: 1rem;
+}
+
+.containerSincronismoInput {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputCol {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.containerProcesos {
+  padding: 1rem 0.5rem;
+  display: flex;
+  border: 1px solid orangered;
+}
+
+.consultarEstado {
+  width: 30%;
+  border: 1px solid orange;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
